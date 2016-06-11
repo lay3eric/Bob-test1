@@ -1,0 +1,134 @@
+/* Reset CSS */
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: arial, times, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 16px;
+	font-weight: normal;
+}
+p {
+	font-size: 14px;
+}
+
+#list {
+	width: 350px;
+	min-height: 300px;
+	padding: 10px;
+	margin: 20px auto;
+	background: #e4e0e0;
+	text-transform: uppercase;
+}
+.column {
+	margin: 10px auto 20px;
+	width: 90%;
+	background: #fff;
+	border-radius: 10px;
+	border: solid 1px black;
+	font-family: arial, times, sans-serif;
+	line-height: 1.5;
+}
+.column ul{
+	display: block;
+}
+.column ul li {
+	padding: 15px;
+	padding-left: 50px;
+	list-style: none;
+	position: relative;
+}
+#up .header {
+	background: purple;
+	color: #fff;
+	font-weight: bolder;
+}
+#up .body, #up .header {
+	border-bottom: solid 1px black;
+}
+.danger::before {
+	content: url("images/house-bucks-mini.png");
+	bottom: 50%;
+	margin-bottom: -15px; 
+	left: 20px;
+	display: block;
+	position: absolute;
+}
+.circle::before {
+	content: url("images/house-dragon-mini.png");
+	bottom: 50%;
+	margin-bottom: -15px; 
+	left: 20px;
+	display: block;
+	position: absolute;
+}
+.lock::before {
+	content: url("images/house-eagle-mini.png");
+	bottom: 50%;
+	margin-bottom: -15px; 
+	left: 20px;
+	display: block;
+	position: absolute;
+}
+#up .direction-down::before {
+	border-left: solid 18px transparent;
+	border-right: solid 18px transparent;
+	border-top: solid 16px black; 
+	bottom: -16px;
+	left: 50%;
+	margin-left: -8px;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	z-index: 3;
+}
+#up .direction-down::after {
+	border-left: solid 18px transparent;
+	border-right: solid 18px transparent;
+	border-top: solid 16px #fff; 
+	bottom: -15px;
+	left: 50%;
+	margin-left: -8px;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	z-index: 4;
+}
+
+#down .direction-down::before {
+	border-left: solid 18px transparent;
+	border-right: solid 18px transparent;
+	border-top: solid 16px black; 
+	top: 0;
+	left: 50%;
+	margin-left: -8px;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	z-index: 1;
+}
+#down .direction-down::after {
+	border-left: solid 18px transparent;
+	border-right: solid 18px transparent;
+	border-top: solid 16px #e4e0e0; 
+	top: -1px;
+	left: 50%;
+	margin-left: -8px;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	z-index: 2;
+}
