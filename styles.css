@@ -43,6 +43,11 @@ p {
 	list-style: none;
 	position: relative;
 }
+.column ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
 #up .header {
 	border-radius: 10px 10px 0 0;
 	background: purple;
@@ -132,4 +137,14 @@ p {
 	width: 0;
 	position: absolute;
 	z-index: 2;
+}
+.block-1 {
+	background: #e4e0e0;
+}
+#up .block-2 {
+	background: #c0bdbd;
+}
+#down .block-2 {
+	border-radius: 10px;
+	background: #c0bdbd;
 }
