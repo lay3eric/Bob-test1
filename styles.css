@@ -58,25 +58,37 @@ p {
 	border-bottom: solid 1px black;
 }
 .danger::before {
-	content: url("images/house-bucks-mini.png");
-	bottom: 50%;
-	margin-bottom: -15px; 
+	font-family: FontAwesome;
+	content: "\f071";
+	color: #f9af26;
+	top: 15px;
 	left: 20px;
 	display: block;
 	position: absolute;
 }
 .circle::before {
-	content: url("images/house-dragon-mini.png");
-	bottom: 50%;
-	margin-bottom: -15px; 
+	font-family: FontAwesome;
+	content: "\f10c";
+	color: #bfbfbf;
+	top: 15px;
 	left: 20px;
 	display: block;
 	position: absolute;
 }
 .lock::before {
-	content: url("images/house-eagle-mini.png");
-	bottom: 50%;
-	margin-bottom: -15px; 
+	font-family: FontAwesome;
+	content: "\f023";
+	color: #4e4e4e;
+	top: 15px;
+	left: 20px;
+	display: block;
+	position: absolute;
+}
+.printer::before {
+	font-family: FontAwesome;
+	content: "\f02f";
+	color: #4e4e4e;
+	top: 15px;
 	left: 20px;
 	display: block;
 	position: absolute;
